@@ -109,7 +109,7 @@ int main() {
         population[i] = createRandomChromosome(n);
     }
     
-    // Pre decided creteria, like I'm keeping no. of generations to be 100 then stop.
+    // Pre decided creteria, like I'm keeping no. of generations to be 1000 then stop.
     const int generations = 1000;
     int bestFitness = 0;
 
