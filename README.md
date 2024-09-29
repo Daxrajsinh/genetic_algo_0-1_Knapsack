@@ -1,6 +1,6 @@
 # Genetic Algorithm for 0-1 Knapsack Problem
 
-This project implements a Genetic Algorithm (GA) to solve the 0-1 Knapsack Problem in C++. The goal of the algorithm is to maximize the total value of items placed in the knapsack without exceeding its weight capacity.
+Implemented a Genetic Algorithm to solve the 0-1 Knapsack Problem in C++.
 
 ## Problem Statement
 
@@ -36,29 +36,9 @@ A Genetic Algorithm is used, which follows these steps:
 
 6. **Output**: The best solution found by the algorithm is displayed, including the total value of the selected items and which items are included.
 
-## How to Run
-
-1. **Clone the repository**:
-    ```bash
-    git clone <repository_url>
-    ```
-
-2. **Compile the code**:
-    You can use any C++ compiler to compile the code. For example, with `g++`:
-    ```bash
-    g++ -o knapsack knapsack.cpp
-    ```
-
-3. **Run the executable**:
-    ```bash
-    ./knapsack
-    ```
-
-4. **Input data**: Enter the number of items, their respective weights and values, and the knapsack's capacity as prompted by the program.
-
 ## Example
 
-Here’s an example of what the input might look like:
+Here’s an example of what the input format look like:
 
 ```bash
 Enter a number of items:
